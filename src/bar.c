@@ -68,15 +68,18 @@ const char *TIMEFMT = "%a %d %b %y, %H:%M";
 
 const char *CMDS[] = {
   "@TIME@",
-  "$HOME/.local/bin/getvol.sh"
+  "$HOME/.local/bin/getvol.sh",
+  "$HOME/.local/bin/getbattery.sh"
 };
 
 const char *PREFIXES[] = {
   " ",
-  "Vol: "
+  "Vol: ",
+  "Bat: "
 };
 
 const char *SUFFIXES[] = {
+  "",
   "",
   ""
 };
